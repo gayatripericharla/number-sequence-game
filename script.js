@@ -1,5 +1,4 @@
-// script.js
-// --- Core Game Variables ---
+
 let score = 0;
 let level = 1;
 let nextNumber = 1;
@@ -249,3 +248,4 @@ function createConfetti() {
         setTimeout(() => confetti.remove(), 4000);
     }
 }
+
